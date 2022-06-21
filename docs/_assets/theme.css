@@ -1,0 +1,332 @@
+:root {
+  /* colours are from new WPV brand. */
+  --theme-color: #f58e31; /* WPV orange -> rgb(245, 142, 49) */
+  --theme-color-blue: #00bde2; /* WPV blue -> rgb(0, 189, 226)*/
+  --theme-color-green: #8fc64b; /* WPV green -> rgb(143, 198, 75)*/
+
+  --text-color-base: #5e5e5e; /*  dark gray -> rgb(94, 94, 94) */
+  --text-color-secondary: #d3d3d3; /* light gray -> rgb(211, 211, 211) */
+  --text-color-tertiary: #ff679d; /* WPV pink ->  rgb(255, 103, 157)*/
+}
+
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  color: var(--text-color-base);
+}
+
+* {
+  text-decoration: none !important;
+}
+
+a {
+  transition: all 0.3s linear;
+}
+
+.github-corner {
+  z-index: 5;
+}
+
+/****** Sidebar ******/
+.sidebar .sidebar-logo {
+  height: 50px;
+}
+
+.sidebar ul li a {
+  font-size: 15px;
+}
+
+.sidebar ul li a:hover {
+  color: var(--theme-color);
+}
+
+.app-sub-sidebar li:before {
+  display: none;
+}
+
+.sidebar .search .clear-button {
+  cursor: pointer;
+}
+
+/****** Sidebar Toggle ******/
+.sidebar-toggle {
+  cursor: pointer;
+}
+
+body .sidebar-toggle {
+  background: none;
+  top: 1.5rem;
+  left: calc(300px + 1.5rem);
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  transition: left 0.25s ease-out;
+}
+
+body .sidebar-toggle span {
+  background-color: var(--theme-color);
+  height: 0.2rem;
+  width: 1.5rem;
+  position: absolute;
+  left: 0;
+  margin: 0;
+  transform-origin: 0;
+  border-radius: 1px;
+}
+
+body.close .sidebar-toggle {
+  transition: left 0.25s ease-out;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 1.5rem;
+}
+
+body.close .sidebar-toggle span {
+  transform-origin: center;
+}
+
+body .sidebar-toggle span:nth-child(1) {
+  top: 0;
+}
+body .sidebar-toggle span:nth-child(2) {
+  top: 0.5rem;
+}
+body .sidebar-toggle span:nth-child(3) {
+  top: 1rem;
+}
+
+.sidebar-toggle:hover {
+  opacity: 0.8;
+}
+.sidebar-toggle .sidebar-toggle-button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  body .sidebar-toggle {
+    left: 1rem;
+  }
+
+  body.close .sidebar-toggle {
+    left: calc(300px + 1.5rem);
+  }
+}
+
+/****** Content ******/
+
+.table-header {
+  color: var(--theme-color);
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.logo {
+  height: auto;
+  width: 100%;
+  max-width: 125px;
+}
+
+figure figcaption {
+  color: var(--theme-color);
+  text-align: center;
+  font-weight: bold;
+}
+
+img.screenshot {
+  height: 100%;
+  width: 100%;
+  /* box-shadow */
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  /* border-radius */
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 0px solid #000000;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.inline {
+  position: relative;
+  top: 6px;
+}
+
+img.icon-set {
+  height: 30px;
+  /* box-shadow */
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  /* border-radius */
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 0px solid #000000;
+}
+
+img.print {
+  transform: rotate(180deg);
+}
+
+img.inline-screenshot {
+  width: 275px;
+  height: 275px;
+  /* box-shadow */
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  /* border-radius */
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 0px solid #000000;
+}
+
+img.inline-button {
+  height: 50px;
+  /* box-shadow */
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  /* border-radius */
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 0px solid #000000;
+}
+
+img.license-cards {
+  height: 250px;
+  /* box-shadow */
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  /* border-radius */
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 0px solid #000000;
+}
+
+img.github-screenshot {
+  max-height: 275px;
+  /* box-shadow */
+  box-shadow: 0;
+  /* border */
+  border: 0;
+}
+
+.asterisk {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--theme-color);
+}
+
+.instructions {
+  font-weight: bold;
+  color: var(--theme-color);
+  text-align: center;
+}
+
+.footnote {
+  text-align: right;
+  color: var(--theme-color);
+}
+
+footer {
+  text-align: center;
+}
+
+/****** Markdown General ******/
+.markdown-section {
+  padding: 30px 30px 40px;
+}
+
+.markdown-section a {
+  text-decoration: none;
+  border-bottom: 0.1rem solid var(--theme-color);
+  transition: all 0.3s ease;
+}
+
+.markdown-section a:hover {
+  border-color: var(--theme-color-blue);
+  color: var(--theme-color-blue);
+}
+
+.markdown-section a.anchor {
+  border: none;
+}
+
+/****** Markdown Table ******/
+.markdown-section table {
+  display: table;
+}
+
+.markdown-section table tr {
+  border-width: 0.15rem 0;
+  border-style: solid;
+  border-color: var(--text-color-secondary);
+}
+
+.markdown-section table thead tr {
+  text-transform: uppercase;
+  font-size: 90%;
+  border-top: none;
+}
+
+.markdown-section table tbody tr:last-of-type {
+  border-bottom: none;
+}
+
+.markdown-section table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.markdown-section table td,
+.markdown-section table th {
+  border: none;
+  padding: 1.1rem 0.5rem;
+  text-align: left;
+}
+
+.markdown-section table td p {
+  margin: 0;
+}
+
+.markdown-section blockquote {
+  margin: 1em 0;
+}
+
+.markdown-section blockquote > p {
+  font-weight: 500;
+}
+
+.markdown-section em,
+.markdown-section blockquote {
+  color: var(--text-color-tertiary);
+}
+
+/****** CODE HIGHLIGHTING ******/
+.token.string {
+  color: var(--theme-color-green);
+}
+
+.token.boolean,
+.token.number {
+  color: var(--theme-color);
+}
+
+.lang-bash .token.function,
+.lang-json .token.property {
+  color: var(--text-color-tertiary);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>PVSAS User Guide</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="World ParaVolley Sport Administration System User Guide" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <link rel="shortcut icon" href="_img/favicon.ico" type="image/ico" sizes="16x16" />
+  <!-- Theme -->
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  <link rel="stylesheet" href="_assets/theme.css" />
+
+</head>
+
+<body>
+  <div id="app" role="application"></div>
+  <script>
+    window.$docsify = {
+      name: 'User Guide',
+      logo: '/_img/wpv-symbol.png',
+      repo: "https://github.com/paralympics/pvsas-user-guide",
+      loadSidebar: true,
+      loadNavbar: false,
+      maxDepth: 2,
+      subMaxLevel: 2,
+      auto2top: true,
+      autoHeader: false,
+      homepage: "https://raw.githubusercontent.com/paralympics/pvsas-user-guide/master/README.md",
+      notFoundPage: "_404.md",
+      alias: {
+        "/.*/_sidebar.md": "/_sidebar.md",
+        ".*?/CONTRIBUTING": "https://raw.githubusercontent.com/paralympics/pvsas-user-guide/master/CONTRIBUTING",
+        ".*?/CODE_OF_CONDUCT": "https://raw.githubusercontent.com/paralympics/pvsas-user-guide/master/CODE_OF_CONDUCT"
+      },
+      search: {
+        paths: "auto",
+        placeholder: "Search",
+        noData: "No Results.",
+        hideOtherSidebarContent: true
+      },
+      "flexible-alerts": {
+        style: "callout"
+      },
+      plugins: [
+        function (hook) {
+          var currentYear = new Date().getFullYear();
+          var footer = [
+            "<footer>",
+            '<span role=\"contentinfo\">&copy;',
+            '&nbsp', 
+            currentYear,
+            '&nbsp', 
+            '<a href="https://www.worldparavolley.org/" target="_blank">World ParaVolley</a></span>',
+            "</footer>"
+          ].join("");
+
+          hook.afterEach(function (html) {
+            return html + footer;
+          });
+        }
+      ],
+    };
+
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('_assets/sw.js')
+    }
+  </script>
+
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+  <!-- image zoom -->
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- search -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- flexible alerts -->
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+</body>
+
+</html>
