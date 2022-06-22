@@ -10,7 +10,7 @@ and is located below the user information. It can be accessed by moving the curs
 
 <figure>
 <img src="_img/figures/2.6-primary-menu.png" alt="Primary Menu" class="center" >
-  <figcaption>Primary Menu</figcaption>
+  <figcaption>Figure 2.6 - Primary Menu</figcaption>
 </figure>
 
 Currently, six main sections divide the application, they are:
@@ -30,7 +30,7 @@ There is also the option of clicking any of the icons on the home page to access
 
 <figure>
 <img class="screenshot" src="_img/figures/2.7-alternative-menu.png" alt="Alternative Menu">
-  <figcaption>Figure 2.7: Alternative Menu - typical setup for NPC account</figcaption>
+  <figcaption>Figure 2.7 - Alternative Menu - typical setup for NPC account</figcaption>
 </figure>
 
 ## Secondary Menu
@@ -40,8 +40,8 @@ reflects username, last login, and the remaining time before the user session is
 The secondary menu bar is located at the upper right corner.
 
 <figure>
-<img class="screenshot" src="_img/figures/2.5-secondary-menu.png" width=100% height=100% alt="Secondary Menu">
-  <figcaption>Secondary Menu</figcaption>
+<img class="screenshot" src="_img/figures/2.8-secondary-menu.png" width=100% height=100% alt="Secondary Menu">
+  <figcaption>Figure 2.8 - Secondary Menu</figcaption>
 </figure>
 
 Following options are available (after login):

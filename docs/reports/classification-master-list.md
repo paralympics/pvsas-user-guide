@@ -1,3 +1,5 @@
+# Reports
+
 When administrating large numbers of athlete data, it is often a good idea to print database 
 extracts as PDF or Excel files in a report. These reports can be generated as **Grid Export** 
 from each search table, but the specifically designed report section of PVSAS combines data 
@@ -6,7 +8,7 @@ from various tables for more comprehensive reporting.
 The Report section is available to both NPC and NF users. NF users can only download data
 related to their sport’s own athletes.
 
-# Classification Master List
+## Classification Master List <!-- {docsify-ignore} -->
 
 The *Classification Master List* is the main report produced by PVSAS, and the one with the most 
 customisable options. It can be used to prepare classification schedules for competitions, get 
@@ -74,7 +76,7 @@ For PVSAS, a publicly accessible widget is available that can be accessed on
 
 <figure>
     <img src="_img/figures/6.1-classification-master-list-widget.png" alt="Classification Master List Widget" class="screenshot" >
-    <figcaption>Classification Master List Widget</figcaption>
+    <figcaption>Figure 6.1 - Classification Master List Widget</figcaption>
 </figure>
 
 The widget has a maximum width of 720px and is intended to be included via an HTML `<iframe>` 

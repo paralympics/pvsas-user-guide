@@ -9,7 +9,7 @@ The classification mass import offers a method to massively change the basic val
 class status, date, year of review and potential limitations with just a few clicks.
 
 <figure>
-    <img src="_img/figures/4.5-classification-mass-import.png" alt="Classification Mass Import" class="screenshot" >
+    <img src="_img/figures/4.6-classification-mass-import.png" alt="Classification Mass Import" class="screenshot" >
     <figcaption>Figure 4.6 - Classification Mass Import</figcaption>
 </figure>
 
@@ -31,8 +31,8 @@ responsible classifier and the codes for class limitations.
    appears, see Figure 4.7.
 
 <figure>
-    <img src="_img/figures/4.5-classification-mass-import.png" alt="Classification Mass Import" class="screenshot" >
-    <figcaption>Figure 4.6 - Classification Mass Import</figcaption>
+    <img src="_img/figures/4.7-file-import-control.png" alt="File Import Control" class="screenshot" >
+    <figcaption>Figure 4.7 - File Import Control</figcaption>
 </figure>
 
 4. The import does not immediately replace classification data. The control view shows one 
@@ -53,8 +53,8 @@ responsible classifier and the codes for class limitations.
    Replaced classification is automatically moved to the history section, the new classes 
    appear under *Current Classification*, (see [Classification Details](athletes/classification.md#classification-details)).
 
-7. When all data are processed, an import log shows the final processes. This import log
-can be reviewed anytime later from the mass import search grid.
+7. When all data are processed, an import log shows the final processes. This import log 
+   can be reviewed anytime later from the mass import search grid.
 
 It is important to understand from the instructions above that the upload of the template with
 data does not immediately change any classification values, but the user is obliged to review the

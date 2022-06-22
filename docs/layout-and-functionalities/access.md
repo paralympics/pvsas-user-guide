@@ -1,4 +1,7 @@
-# Access
+# Website, Layout, and Functionalities
+
+Some general information about the access to PVSAS as well as an overview of the structure and general functionalities and tools are outlined in this section.
+# Access<!-- {docsify-ignore} -->
 
 ## PVSAS Website 
 The World ParaVolley Sport Administration System is an online application accessible on the 
@@ -10,7 +13,7 @@ Internet by inserting the following URL in the browser of your choice
 
 <figure>
   <img src="_img/figures/2.1-pvsas-login-page.png" alt="PVSAS Login Page" class="screenshot">
-  <figcaption>PVSAS Login Page</figcaption>
+  <figcaption>Figure 2.1 - PVSAS Login Page</figcaption>
 </figure>
 
 ## Recommended Browsers 
@@ -51,11 +54,15 @@ the update of classification values and files to ensure consistent and high data
 
 PVSAS is a password-protected application. This protection requires high standard beginning with usage of strong passwords. Strength of a password is primarily defined by its length and its used character set. To find a compromise between security and user-friendliness, a password for PVSAS and all its related modules requires:
 
-- [x] Minimum length of eight (8) characters
-- [x] At least one (1) lower-case letter [a-z]
-- [x] At least one (1) upper-case letter [A-Z]
-- [x] At least one (1) numeric character [0-9]
-- [x] At least one (1) non-alphanumeric character out of the set [!_%#?-@=$&+]
+  &check; Minimum length of eight (8) characters
+
+  &check; At least one (1) lower-case letter [a-z]
+
+  &check; At least one (1) upper-case letter [A-Z]
+
+  &check; At least one (1) numeric character [0-9]
+
+  &check; At least one (1) non-alphanumeric character out of the set [!_%#?-@=$&+]
 
 As it is recommended for all Internet applications, PVSAS automatically reminds the user to change his password when 360 days after last password change have passed.
 
@@ -75,7 +82,7 @@ corner of PVSAS. This screen automatically opens after the 90 days period.
 
 <figure>
 <img src="_img/figures/2.2-sdms-password-editor.png" alt="Change Password" class="screenshot">
-  <figcaption>SDMS Password Editor</figcaption>
+  <figcaption>Figure 2.2 - SDMS Password Editor</figcaption>
 </figure>
 
 2. Enter your current password in the first field. The new password is automatically 
@@ -96,12 +103,12 @@ page.
 
 <figure>
 <img src="_img/figures/2.3-password-reset-email.png" alt="Auto-generated Email" class="screenshot">
-  <figcaption>Automatically generated email</figcaption>
+  <figcaption>Figure 2.3 - Automatically generated email</figcaption>
 </figure>
 
 <figure>
 <img src="_img/figures/2.4-password-reset.png" alt="SDMS Password Reset" class="screenshot">
-  <figcaption>SDMS Password Reset</figcaption>
+  <figcaption>Figure 2.4 - SDMS Password Reset</figcaption>
 </figure>
 
 Please note that after submission of the password reset in step 2, you need to complete the 

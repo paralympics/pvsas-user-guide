@@ -4,9 +4,9 @@ This section describes all screens of the first PVSAS module **Application Setti
 all basic or core entities can be managed or at least viewed here, like sports, events, 
 organisations, or seasons as well as some more technical settings.
 
-### Configuration
+# Configuration <!-- {docsify-ignore} -->
 
-### Seasons
+## Seasons
 
 Competition calendars either use the summer sport seasons (1 January to 31 December) or 
 winter sport seasons (1 July to 30 June of the subsequent calendar year). Consequently, 
@@ -29,7 +29,7 @@ summer seasons.
 
 The open date fields allow a flexible definition of seasons even outside the standard pattern.
 
-#### Application News
+## Application News
 
 On the left-hand side of the PVSAS login page, short news can be flexibly published, e.g. 
 about the update the application, introduction of new regulations, links to important 

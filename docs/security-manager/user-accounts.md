@@ -34,8 +34,8 @@ have an effective account, at least one sport and one federation must be set. NP
 should in most cases have access to information for all sports and federations (%-code).
 
 <figure>
-  <img src="_img/figures/2.1-pvsas-data-security.png" alt="Figure 7.1: PVSAS data security" class="screenshot">
-  <figcaption>Figure 7.1: PVSAS data security</figcaption>
+  <img src="_img/figures/7.1-pvsas-data-security.png" alt="PVSAS data security" class="screenshot">
+  <figcaption>Figure 7.1 - PVSAS data security</figcaption>
 </figure>
 
 # User Accounts <!-- {docsify-ignore} -->
@@ -149,7 +149,7 @@ registered so that the First-Setup page will show again after next login of the 
 
 <figure>
   <img src="_img/figures/7.2-Assignment page of user groups.png" alt="Assignment page of user groups for a user" class="screenshot">
-  <figcaption>Figure 7.2: Assignment page of user groups for a user</figcaption>
+  <figcaption>Figure 7.2 - Assignment page of user groups for a user</figcaption>
 </figure>
 
 To display the user’s access rights, use the User Groups and User Permissions tabs. This shows all possible groups and permissions, 

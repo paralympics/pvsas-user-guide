@@ -13,7 +13,7 @@ tab for upload of PDF scans of forms and sheets.
 
 Only active athletes are listed in the classification search screen. To open the classification of a
 retired or historic athlete, open the personal detail page and directly navigate to the athlete’s
-classification with help of the <img src="_img/inline/icon-browse.svg" alt="Browse" class="inline"> icon.
+classification with help of the <img src="_img/inline/icon-classification.svg" alt="Classification" class="inline"> icon.
 
 ## Classification Search Form
 
@@ -22,8 +22,7 @@ and class of each athlete. The table below lists the possible search fields; non
 compulsory, by default the grid displays all athletes which the user can access. Only active
 athletes are displayed in this search; if a user wishes to access information of retired
 athletes, please use the registration search grid and navigate to the classification of the
-retired athlete from the personal detail page via the 
-<img src="_img/inline/icon-browse.svg" alt="Browse" class="inline"> icon.
+retired athlete from the personal detail page via the <img src="_img/inline/icon-classification.svg" alt="Classification" class="inline"> icon.
 
 | **Field**                                                     | **Format**         | **Comments**                                  |
 | ------------------------------------------------------------- | ------------------ | --------------------------------------------- |
@@ -44,7 +43,7 @@ retired athlete from the personal detail page via the
 </p>
 
 By default, each class of each athlete is displayed in a row. This behaviour can be changed
-by setting the advanced search parameter *Grouping* to by *athlete*. Then each row represents
+by setting the advanced search parameter *Grouping* to *by athlete*. Then each row represents
 one athlete with all current classes if he has two or more. However, selecting an athlete
 opens the classification detail page including all classification the athlete is registered in.
 
@@ -55,14 +54,14 @@ opens the classification detail page including all classification the athlete is
     <figcaption>Figure 4.3 - Classification Details</figcaption>
 </figure>
 
-When opening an athlete’s classification details page (see the screenshot above), each classification
+When opening an athlete’s classification details page (Figure 4.3), each classification
 instance has its own row in its respective section (*Current* or *Historical*). Any current
-classification not with New status should be accompanied by documentation and
+classification not with *New* status should be accompanied by documentation and
 confirmation from classifiers. If the athlete’s class changes, this should be documented by
 adding a new classification row and moving the outdated one to *Historical* status.
 
 In the table below, those fields are listed in the form that can be accessed from the New
-*Classification form* (see Figure 4.4 below) when defining a new classification for an athlete.
+*Classification form* (Figure 4.4) when defining a new classification for an athlete.
 
 | **Field**                       | **Format**                      | **Comments**                                                                                                 |
 | ------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -117,6 +116,7 @@ selecting its row and then clicking the **Delete** button.
 
 1. Search for the athlete from the Classification search form using any criteria available. 
    Click on the row of the athlete to bring up the *Classification Details* screen.
+
 2. Click **New Classification** to bring up the associated entry form.
 
 3. Using the table of fields in this section as reference, enter the details of the athlete’s 
@@ -200,7 +200,7 @@ upcoming panel so that he requires and gets access to all documents uploaded to 
 those athletes who undergo classification at the same panel.
 
 As soon as the classification panel has passed – this means, the end date of the classification panel 
-is in the past – the respective classifiers won’t be able to access the files anymore. The files are 
+is in the past – the respective classifiers won’t be able to access the files any more. The files are 
 again fully protected unless athletes and classifiers are assigned to a new upcoming event.
 
 When immediate action is required for a classifier or athlete, the respective person just needs to be unassigned from the panel.

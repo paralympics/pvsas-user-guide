@@ -39,7 +39,7 @@ menus across PVSAS.
 
 When a new country is granted membership at World ParaVolley, or when such a member 
 loses its status, search for World ParaVolley as international federation, open its detail page 
-and the tab **‘Members’**. The assignment table as shown in the figure below.
+and the tab **‘Members’**. The assignment table as shown in the Figure 3.1.
 
 Both tables are populated from the list of potential active country members as defined in the 
 **‘members’** section of PVSAS, loaded from the [IPC Common Codes](https://db.ipc-services.org/centre/common-codes/index). 
@@ -47,7 +47,7 @@ The right table shows the current membership; in the left table, all potential c
 
 <figure>
   <img src="_img/figures/3.1-assignment-grid-federation.png" alt="Assignment Grid of National Member Federations" class="screenshot">
-  <figcaption>Assignment screen of national member federations to World ParaVolley</figcaption>
+  <figcaption>Figure 3.1 Assignment screen of national member federations to World ParaVolley</figcaption>
 </figure>
 
 To assign, find the new country on the left. Either select it and click **‘Assign’** or move it to the 

@@ -1,10 +1,12 @@
+# Calendar
+
 This section describes the menu items related to the administration of events and attendance
 of classifiers and technical officials to competitions or classification panels. The calendar allows
 for panels in all sports to be entered, including athletes and classifiers to participate that also
 influences the access rights of PVSAS classifier users to open sensitive files of these athletes
 (see [Documentation](athletes/classification.md#documentation)).
 
-# Competitions 
+## Competitions <!-- {docsify-ignore} -->
 
 From this screen, competitions or classification panels not associated with a competition can be
 created and deleted. Each event has one or more sports associated with it that participants
@@ -44,7 +46,7 @@ Games can be accessed by both, and the responsible federation may edit the sport
 
 <figure>
     <img src="_img/figures/5.1-adding-more-sports.png" alt="Adding more sports" class="screenshot" >
-    <figcaption>Adding more sports</figcaption>
+    <figcaption>Figure 5.1 - Adding more sports</figcaption>
 </figure>
 
 Once the event is saved, two more tabs appear, labelled *Sports* and the name of the sport initially 
@@ -69,7 +71,7 @@ sport for the current event.
 
 <figure>
     <img src="_img/figures/5.2-athletes-assignment-to-an-event.png" alt="Athletes assignment to an event" class="screenshot" >
-    <figcaption>Athletes assignment to an event</figcaption>
+    <figcaption>Figure 5.2 - Athletes assignment to an event</figcaption>
 </figure>
 
 On the left side, all available athletes/classifiers as registered in PVSAS are listed. The right table 
@@ -90,4 +92,3 @@ athlete are assigned to the same event, the classifier registered as PVSAS user 
 categorised as *sensitive* for this particular athlete. As soon as the event has passed, the files are 
 automatically locked unless classifier and athlete are assigned to a new event in future. It is not 
 necessary to manually undo the assignment for past events.
-

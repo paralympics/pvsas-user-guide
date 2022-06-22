@@ -4,8 +4,8 @@ Each section handling one data entity of PVSAS, e.g. sports, events, federations
 a search functionality to target the user’s data.
 
 <figure>
-    <img class="screenshot" src="_img/figures/2.8.1-search-results-matrix.png" alt="Search Results Matrix">
-    <figcaption>Search Results Matrix - Application  (Application Settings > Config > App News)</figcaption>
+    <img class="screenshot" src="_img/figures/2.9-search-results-matrix.png" alt="Search Results Matrix">
+    <figcaption>Figure 2.9 - Search Results Matrix - Application  (Application Settings > Config > App News)</figcaption>
 </figure>
 
 The search page in turns offers a results matrix with an input row for the search criteria. When a 
@@ -61,8 +61,8 @@ the left-hand side. Selected rows are highlighted in light blue.
 screens do not have a detail page; in that case, clicking selects the row.
 
 <figure>
-    <img class="screenshot" src="_img/figures/2.8.2-selecting-rows-in-a-grid.png" alt="Selecting rows in a grid">
-    <figcaption>To select all rows, click the checkbox in the header row</figcaption>
+    <img class="screenshot" src="_img/figures/2.10-selecting-rows-in-a-grid.png" alt="Selecting rows in a grid">
+    <figcaption>Figure 2.10 - To select all rows, click the checkbox in the header row</figcaption>
 </figure>
 
 Underneath the search results matrix, three buttons duplicate the functionality of icons in the 

@@ -34,7 +34,7 @@ to grant a classifier access to sensitive files of an athlete.
 
 <figure>
     <img src="_img/figures/5.3-role-of-classifier-registration.png" alt="Role of classifier registration to access sensitive files" class="screenshot center" >
-    <figcaption>Figure 5.3: Role of classifier registration to access sensitive files</figcaption>
+    <figcaption>Figure 5.3 - Role of classifier registration to access sensitive files</figcaption>
 </figure>
 
 Both, the classifier and the athlete must be assigned to the same classification 

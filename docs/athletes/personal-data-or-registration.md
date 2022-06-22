@@ -1,4 +1,4 @@
-# Personal Data / Registration
+# Athletes
 
 This chapter described the core section of PVSAS, where users can read and modify personal 
 data relating to ParaVolley athletes across all national federations and manage their 
@@ -14,6 +14,8 @@ upper right corner next to athlete’s ID and name.
 
 <img src="_img/inline/nationality-page.png" alt="Nationality" class="center inline"> Opens the nationality page
 
+## Personal Data / Registration <!-- {docsify-ignore} -->
+
 Each athlete must be registered first before any further classification information and files can 
 be associated. From this menu, the user has access to all registered athletes he can access 
 based on his access federation and sport related access rights.
@@ -21,7 +23,7 @@ based on his access federation and sport related access rights.
 ## Details
 
 Users must navigate the **Athlete Registration** search screen before they can modify any 
-participant details. By clicking on a row in the grid or on the **Add Athlete** button, users reach 
+participant details. By clicking on a row in the grid or on the *Add Athlete* button, users reach 
 the details tab with fields described in the following table. Certain fields are mandatory 
 to fill out on creation or update of an athlete.
 
@@ -59,35 +61,34 @@ to fill out on creation or update of an athlete.
     <small><span class="asterisk">*</span>Only available and displayed at registration of a new athlete. Any further modification must be done at the **Sports & Classes** tab or through the classification section of PVSAS.</small>
 </p>
 
-The **searchable** column indicates whether this field is offered as a criterion on the search form. 
-The **family name** and **given name** fields of the search form will match in either the passport 
-or preferred name fields, but only display the preferred name, which may sometimes lead to unexpected search results. 
+The *searchable* column indicates whether this field is offered as a criterion on the search form. 
+The *family name* and *given name* fields of the search form will match in either the passport or 
+preferred name fields, but only display the preferred name, which may sometimes lead to unexpected search results. 
 
 <img src="_img/inline/delete-button.png" alt="Delete Button" class="center inline-button">
 
 > [!DANGER]
 > **Caution:** The **‘delete’** button is accessible from the participant detail menu. An athlete may be 
-> completely deleted from the system once the user confirms a security question. On deletion, all related 
-> classification data and files are irrevocably removed from the system. In case, you want to remove just a duplicate, 
-> it is highly recommended to use the merging tool in the duplicate control section, see [Duplicate Control](athletes/duplicate-control.md). 
+> completely deleted from the system once the user confirms a security question. **On deletion, all related classification data and files are irrevocably removed from the system.** 
+> In case, you want to remove just a duplicate, it is highly recommended to use the merging tool in the duplicate control section, see [Duplicate Control](athletes/duplicate-control.md). 
 > If the athlete is not active in this sport any more, the status shall be changed to **‘Retired’**.
 
 ### How To: Register a new Athlete 
 
 <img src="_img/inline/new-button.png" alt="New Athlete/Guide Button" class="center inline-button">
 
-1. Obtain a blank athlete detail form (see the screenshot below) by clicking the **Add Athlete** button (from the search form) 
+1. Obtain a blank athlete detail form (see Figure 4.1) by clicking the **Add Athlete** button (from the search form) 
    or the **New** button (from the details page). 
 2. Referring to the athlete details table, complete all fields to the best of your knowledge. Yellow fields are mandatory. 
    Cross-check spelling and information with the uploaded documents, the athlete family and given name according to their passport. 
 3. Select the class the athlete is either already classified in on national level, or the class the athlete is likely to be. 
    This is required to give the responsible federation and their classifiers access to this athlete for classification input. 
-   Class status will be automatically set to **New**. 
+   Class status will be automatically set to *New*. 
 4. Click **Save** to create an Athlete ID for the athlete. 
 
 <figure>
     <img src="_img/figures/4.1-athlete-registration-create.png" alt="A blank athlete registration form including file upload information" class="screenshot" >
-    <figcaption>A blank athlete registration form including file upload information</figcaption>
+    <figcaption>Figure 4.1 - A blank athlete registration form including file upload information</figcaption>
 </figure>
 
 When saving an athlete for the first time, the system automatically searches for potential 
@@ -113,7 +114,7 @@ marital status, etc.
 1. Search for the athlete in question from the **Athlete Registration** search form and click the row 
    in the search grid corresponding to the athlete to enter the athlete details’ page. 
 2. The data stored about the athlete will appear in the form. Edit the incorrect or missing details and click **Save**. 
-3. If you change passport name and/or the member federation of the athlete, a dialogue box (see the figure below) appears 
+3. If you change passport name and/or the member federation of the athlete, a dialogue box (see Figure 4.2) appears 
    to ask you to confirm the reason for the name change. Choose one of the three supplied reasons (error, marriage or nationality change) 
    and, if applicable, enter the date from which the change should be effective. 
 4. If you change the name of the athlete, please bear in mind that changes only apply to the field you enter, i.e., a change of passport 
@@ -123,7 +124,7 @@ marital status, etc.
 
 <figure>
     <img src="_img/figures/4.2-name-change-dialogue-box.png" alt="Name change dialogue box" class="screenshot center" >
-    <figcaption>Name change dialogue box</figcaption>
+    <figcaption>Figure 4.2 - Name change dialogue box</figcaption>
 </figure>
 
 ## Career & Name Changes
@@ -133,8 +134,8 @@ The content of this tab is separated into three parts.
 The upper part allows the user changing the career status of the athlete. To change the 
 status, enter a reason for the career status change, select the new status and **Save**. Retired 
 and historic athletes can be or are automatically excluded from search grids and reports. 
-Historic athletes can be excluded from user’s view by removing the operation **find historic 
-athletes** from the user’s roles (see [Role Functions](security-manager/management-of-groups-roles-and-permissions.md#role-functions)).
+Historic athletes can be excluded from user’s view by removing the operation *find historic athletes* 
+from the user’s roles (see [Role Functions](security-manager/management-of-groups-roles-and-permissions.md#role-functions)).
 
 The second part reflects all the career status changes including the provided reason and 
 timestamps.

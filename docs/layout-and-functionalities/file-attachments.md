@@ -15,12 +15,15 @@ maximum file size (in bytes) or wring file formats will cause an error.
 - Photo
 
     The photo must adhere to the following specifications:
-
-    - [x] Be recent and allow for easy recognition of the individual
-    - [x] Be plain white or light blue background with good contrast against the person (face and hair)
-    - [x] Not include headgear, dark glasses and hair bands on the individual, except for religious or medical reasons
-    - [x] Have the head of the individual looking face-on
-    - [x] Either be scanned and saved as JPG (preferred), GIF or PNG in medium or high quality. Width-to-height ratio is less than 10:11; file size must not exceed 250 KB
     
-    Hence, any uploaded photo is automatically resized to a maximum height of 256 px and a 
-maximum width of 176 px. The user does not need to resize the photo in advance. 
+    &check; Be recent and allow for easy recognition of the individual
+
+    &check; Be plain white or light blue background with good contrast against the person (face and hair)
+
+    &check; Not include headgear, dark glasses and hair bands on the individual, except for religious or medical reasons
+
+    &check; Have the head of the individual looking face-on
+
+    &check; Either be scanned and saved as JPG (preferred), GIF or PNG in medium or high quality. Width-to-height ratio is less than 10:11; file size must not exceed 250 KB
+    
+    *Hence, any uploaded photo is automatically resized to a maximum height of 256 px and a maximum width of 176 px. The user does not need to resize the photo in advance.*
