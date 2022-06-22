@@ -115,6 +115,10 @@ body .sidebar-toggle span:nth-child(3) {
 
 /****** Content ******/
 
+.text-center {
+  text-align: center;
+}
+
 .table-header {
   color: var(--theme-color);
   font-weight: bold;
@@ -265,6 +269,10 @@ footer {
 
 .markdown-section a.anchor {
   border: none;
+}
+
+.markdown-section blockquote {
+  border-left: 4px solid var(--text-color-tertiary);
 }
 
 /****** Markdown Table ******/

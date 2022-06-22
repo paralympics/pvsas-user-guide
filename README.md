@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/paralympics/pvsas-user-guide/master/docs/_img/wpv_logo.png" height="250px" alt="World ParaVolley Logo">
+    <img src="https://raw.githubusercontent.com/paralympics/pvsas-user-guide/master/docs/_img/wpv-logo.png" height="250px" alt="World ParaVolley Logo">
 </p>
 
 <h1 align="center">World ParaVolley Sport Administration System</h1>

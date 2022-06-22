@@ -12,7 +12,6 @@
   - [Header Tools](layout-and-functionalities/header-tools.md)
   - [Search Forms & Results Matrix](layout-and-functionalities/search.md)
   - [Data Fields](layout-and-functionalities/data-fields.md)
-  - [Assigning Items](layout-and-functionalities/assigning-items.md)
   - [File Attachments](layout-and-functionalities/file-attachments.md)
   - [Error Messages and Notices](layout-and-functionalities/error-messages-and-notices.md)
 
