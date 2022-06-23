@@ -5,10 +5,29 @@ Classifiers are assigned to competition sports (see [Sport-specific management](
 Similar to the athletes, each classifier obtains a unique ID holding a very few 
 personal details and a list of his/her roles active and inactive roles.
 
-| **Field**                                       | **Format** | **Searchable** | **Comments**                                   |
-| ----------------------------------------------- | ---------- | -------------- | ---------------------------------------------- |
-| <span class="table-header">Personal Data</span> |            |                |                                                |
-| **Official ID**                                 | number     | Yes            | automatically assigned on participant creation |
+| **Field**                                       | **Format**         | **Searchable** | **Comments**                                                                                                   |
+| ----------------------------------------------- | ------------------ | -------------- | -------------------------------------------------------------------------------------------------------------- |
+| <span class="table-header">Personal Data</span> |                    |                |                                                                                                                |
+| **Official ID**                                 | number             | Yes            | automatically assigned on participant creation                                                                 |
+| **Family Name**                                 | text (50)          | Yes            |                                                                                                                |
+| **Given Name**                                  | text (50)          | Yes            |                                                                                                                |
+| **Gender**                                      | radio buttons      | No             | male or female                                                                                                 |
+| **Date of Birth**                               | date               | No             | male or female                                                                                                 |
+| **Country of Residence**                        | drop-down[country] | No             | male or female                                                                                                 |
+| **Email**                                       | email(50)          | Yes            | correct email address of the classifier; required for availability request process                             |
+| **Application Username**                        | text(50)           | No             | see comments below                                                                                             |
+| **Mobile Phone**                                | text(20)           | No             |                                                                                                                |
+| **Landline Phone**                              | text(20)           | No             |                                                                                                                |
+| **Photo**                                       | image              | No             | optional, same requirements as for athletes                                                                    |
+| **Comments**                                    | text               | No             |                                                                                                                |
+| <span class="table-header">Roles</span>         |                    |                |                                                                                                                |
+| **Sport**                                       | ParaVolley         | No             |                                                                                                                |
+| **Category**                                    | drop-down          | No             | Classifier, Technical Official, Referee, Judge, Linesman (depending on sport)                                  |
+| **Impairment**                                  | PI                 | No             | default value for classifiers                                                                                  |
+| **Activity**                                    | active or inactive | No             | Set to inactive to avoid the classifier as available in assignment pages or for the attendance request process |
+| <span class="table-header">Languages</span>     |                    |                |                                                                                                                |
+| **Name**                                        | text (50)          | No             | Name of language the official is skilled in (English and local)                                                |
+| **Skill**                                       | drop-down          | No             | Skill level: native, fluent, good, basic                                                                       |
 
 Each official must retain at least one role and one language. During first 
 registration, the first role is registered and automatically activated. 

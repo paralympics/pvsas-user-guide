@@ -33,10 +33,28 @@ set, all athletes from the database are considered based on the other criteria.
 
 A comprehensive table of all search options follows.
 
-| **Field**                                         | **Format**             | **Comments**        |
-| ------------------------------------------------- | ---------------------- | ------------------- |
-| <span class="table-header">Core Parameters</span> |                        |                     |
-| **Discipline**                                    | drop-down [value list] | Sitting or Standing |
+| **Field**                                                                    | **Format**                                                  | **Comments**                                                                                                                                |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="table-header">Core Parameters</span>                            |                                                             |                                                                                                                                             |
+| **Discipline**                                                               | drop-down [value list]                                      | Sitting or Standing                                                                                                                         |
+| **Region**                                                                   | drop-down [region]                                          | select by region (1 or all)                                                                                                                 |
+| **National Federation**                                                      | drop-down [federation]                                      | select by responsible NF (1 or all)                                                                                                         |
+| **active athletes only**                                                     | checkbox                                                    | If checked, only athletes with career status Active are included in the report                                                              |
+| **load personal status**                                                     | checkbox                                                    | If checked, nationality status, career status and yes/no flag for an uploaded photo are included                                            |
+| <span class="table-header">Competition Parameters</span>                     |                                                             |                                                                                                                                             |
+| **Competition Module**                                                       | Calendar                                                    |                                                                                                                                             |
+| **Competition Code**                                                         | text (6)                                                    | Enter the six-digit competition code from the calendar to limit the list of athletes to those assigned to this event in the selected sport. |
+| <span class="table-header">Sorting</span>                                    |                                                             |                                                                                                                                             |
+| **Sort Order**                                                               | by Athlete Name or Athlete ID                               |                                                                                                                                             |
+| <span class="table-header">Additional Columns (only for Excel report)</span> |                                                             |                                                                                                                                             |
+| **General Profile Fields**                                                   | checkboxes                                                  | <span class="asterisk">1</span>                                                                                                             |
+| **Sport-Specific Profile Fields**                                            | checkboxes (automatically adjusted based on selected sport) | <span class="asterisk">2</span>                                                                                                             |
+| **General Classification File Containers**                                   | checkboxes                                                  | <span class="asterisk">3</span>                                                                                                             |
+| **Sport-Specific Classification File Containers**                            | checkboxes (automatically adjusted based on selected sport) | <span class="asterisk">4</span>                                                                                                             |
+
+<span class="asterisk">1. / 2. </span>Lists all classification profile fields that are globally registered for all sports (see [Classification Profile](athletes/classification.md#classification-profile)). Each field checked includes a column with the classification profile information currently stored for all athletes.
+
+<span class="asterisk">3. / 4. </span>Lists all classification file containers that are globally registered for all sports (see [Documentation](athletes/classification.md#documentation)). Each field checked includes a column indicating whether and when a file for this category has been uploaded.
 
 ## PDF Export
 

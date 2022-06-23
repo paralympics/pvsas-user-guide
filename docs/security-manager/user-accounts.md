@@ -52,9 +52,24 @@ for the following broad of categories of users, described in more details in
 
 The following fields are available from the User Account Details page.
 
-| **Field**    | **Format**                                                           | **Comments**   |
-| ------------ | -------------------------------------------------------------------- | -------------- |
-| **Username** | text (50 characters; case-sensitive letters, numbers, or underscore) | must be unique |
+| **Field**                 | **Format**                                                           | **Comments**                                                                                                                         |
+| ------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Username**              | text (50 characters; case-sensitive letters, numbers, or underscore) | must be unique                                                                                                                       |
+| **User’s Level**          | drop-down [IF, NF, Classifier]                                       | see comments below                                                                                                                   |
+| **Given Name**            | text (50)                                                            |                                                                                                                                      |
+| **Family Name**           | text (50)                                                            |                                                                                                                                      |
+| **Email Address**         | text (50)                                                            | searchable; this email is used for password resets                                                                                   |
+| **User Category**         | World ParaVolley                                                     | default value, cannot be changed                                                                                                     |
+| **Logout Time**           | integer in seconds                                                   | how much time before inactivity logout, defaults to 600 seconds (10 min), maximum 3600 s.                                            |
+| **Failed Login Attempts** | integer, auto-count                                                  | counter of failed login attempts (when reaching 5, account is locked and must be manually reset)                                     |
+| **Account Expiry**        | date                                                                 | If set, the account automatically locks after this specific date. When user tries to login, the message ‘account disabled’ appears.  |
+| **Password Expiry**       | date                                                                 | After this date, the user is forced to change his password.                                                                          |
+| **Account Disabled**      | checkbox                                                             | Completely locks the account. When user tries to login, the message ‘account disabled’ appears.                                      |
+| **Password Change**       | checkbox                                                             | If checked, it forces the user to change the password after next login (even if password has not expired by date).                   |
+| **2-Step Authentication** | checkbox                                                             | if checked, user needs a mobile device to retrieve a special 30-seconds-valid token to login as additional security aspect to PVSAS  |
+| **Authenticator Secret**  |                                                                      | Indicates if user has generated the secret for the [2-Step Authentication](securitiy-manager/user-accounts.md#2-step-authentication) |
+| **New Password**          | text                                                                 | Must conform to the password specifications                                                                                          |
+| **Repeat Password**       | text                                                                 | Must be the same as new password                                                                                                     |
 
 ## Username and Password
 
