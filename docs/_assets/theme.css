@@ -165,6 +165,25 @@ img.inline {
   top: 6px;
 }
 
+
+.svg-small {
+  height: 24px;
+  width: 24px;
+  margin: 0;
+}
+
+.svg-medium {
+  height: 36px;
+  width: 36px;
+  margin: 0;
+}
+
+.svg-large{
+  height: 48px;
+  width: 48px;
+  margin: 0;
+}
+
 img.icon-set {
   height: 30px;
   /* box-shadow */
@@ -176,10 +195,6 @@ img.icon-set {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border: 0px solid #000000;
-}
-
-img.print {
-  transform: rotate(180deg);
 }
 
 img.inline-screenshot {

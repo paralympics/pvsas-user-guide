@@ -8,11 +8,11 @@ Once an athlete has been selected from the registration, the classification, or 
 screen, each other athlete’s page can be directly opened clicking the corresponding icon at the 
 upper right corner next to athlete’s ID and name.
 
-<img src="_img/inline/personal-detail-page.png" alt="Personal Detail" class="center inline"> Opens the personal detail page
+<img src="_img/inline/icon-personal-details.svg" alt="Personal Detail" class="inline svg-medium"> Opens the personal detail page
 
-<img src="_img/inline/classification-page.png" alt="Classification" class="center inline"> Opens the classification page
+<img src="_img/inline/icon-classification.svg" alt="Classification" class="inline svg-medium"> Opens the classification page
 
-<img src="_img/inline/nationality-page.png" alt="Nationality" class="center inline"> Opens the nationality page
+<img src="_img/inline/icon-nationality.svg" alt="Nationality" class="inline svg-medium"> Opens the nationality page
 
 ## Personal Data / Registration <!-- {docsify-ignore} -->
 
@@ -65,9 +65,9 @@ The *searchable* column indicates whether this field is offered as a criterion o
 The *family name* and *given name* fields of the search form will match in either the passport or 
 preferred name fields, but only display the preferred name, which may sometimes lead to unexpected search results. 
 
-<img src="_img/inline/delete-button.png" alt="Delete Button" class="center inline-button">
-
 > [!DANGER]
+> <img src="_img/inline/button-delete.png" alt="Delete Button" class="inline-button">
+> 
 > **Caution:** The **‘delete’** button is accessible from the participant detail menu. An athlete may be 
 > completely deleted from the system once the user confirms a security question. **On deletion, all related classification data and files are irrevocably removed from the system.** 
 > In case, you want to remove just a duplicate, it is highly recommended to use the merging tool in the duplicate control section, see [Duplicate Control](athletes/duplicate-control.md). 
@@ -75,7 +75,7 @@ preferred name fields, but only display the preferred name, which may sometimes 
 
 ### How To: Register a new Athlete 
 
-<img src="_img/inline/new-button.png" alt="New Athlete/Guide Button" class="center inline-button">
+<img src="_img/inline/button-add-athlete.png" alt="New Athlete/Guide Button" class="center inline-button">
 
 1. Obtain a blank athlete detail form (see Figure 4.1) by clicking the **Add Athlete** button (from the search form) 
    or the **New** button (from the details page). 
@@ -98,11 +98,10 @@ is then possible to either proceed registering the new athlete under a new ID, o
 existing profiles or cancel the registration completely for further amendments. 
 
 Photo and other documentation can be uploaded during or after first registration anytime. 
-Click the <img src="_img/inline/icon-upload-image.svg" alt="Upload Image" class="inline"> 
-icon to select the athlete’s photo from your local hard drive or network. The requirements for 
-photos are described in chapter 2.5. For quick reference, the photo should be in passport size 
+Click the field labelled **Browse...** to select the athlete’s photo from your local hard drive or network. 
+The requirements for photos are described in chapter 2.5. For quick reference, the photo should be in passport size 
 format, around 7:10 in aspect ratio, and saved as a JPG file smaller than 250 kB. Click the 
-<img src="_img/inline/icon-browse.svg" alt="Browse" class="inline"> icon to select the athlete’s 
+<img src="_img/inline/icon-browse.png" alt="Browse" class="inline"> icon to select the athlete’s 
 passport copy or IPC nationality letter in PDF format from your local hard drive.
 
 After an athlete has been registered, there may be reason to change the details, for example 
@@ -123,7 +122,7 @@ marital status, etc.
    body will only recognise the new name.
 
 <figure>
-    <img src="_img/figures/4.2-name-change-dialogue-box.png" alt="Name change dialogue box" class="screenshot center" >
+    <img src="_img/figures/4.2-name-change-dialogue-box.png" alt="Name change dialogue box" class="inline-screenshot center" >
     <figcaption>Figure 4.2 - Name change dialogue box</figcaption>
 </figure>
 

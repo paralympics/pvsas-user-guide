@@ -13,7 +13,7 @@ tab for upload of PDF scans of forms and sheets.
 
 Only active athletes are listed in the classification search screen. To open the classification of a
 retired or historic athlete, open the personal detail page and directly navigate to the athlete’s
-classification with help of the <img src="_img/inline/icon-classification.svg" alt="Classification" class="inline"> icon.
+classification with help of the <img src="_img/inline/icon-classification.svg" alt="Classification" class="inline svg-small"> icon.
 
 ## Classification Search Form
 
@@ -22,7 +22,7 @@ and class of each athlete. The table below lists the possible search fields; non
 compulsory, by default the grid displays all athletes which the user can access. Only active
 athletes are displayed in this search; if a user wishes to access information of retired
 athletes, please use the registration search grid and navigate to the classification of the
-retired athlete from the personal detail page via the <img src="_img/inline/icon-classification.svg" alt="Classification" class="inline"> icon.
+retired athlete from the personal detail page via the <img src="_img/inline/icon-classification.svg" alt="Classification" class="inline svg-small"> icon.
 
 | **Field**                                                     | **Format**         | **Comments**                                  |
 | ------------------------------------------------------------- | ------------------ | --------------------------------------------- |
@@ -110,7 +110,7 @@ selecting its row and then clicking the **Delete** button.
 ### How To: Report a Change in Classification
 
 <figure>
-    <img src="_img/figures/4.4-adding-new-classes.png" alt="Adding new classes" class="screenshot" >
+    <img src="_img/figures/4.4-adding-new-classes.png" alt="Adding new classes" class="inline-screenshot center" >
     <figcaption>Figure 4.4 - Adding new classes</figcaption>
 </figure>
 
@@ -131,8 +131,8 @@ selecting its row and then clicking the **Delete** button.
 
 6. If you have any documents to upload, go to the *Files* tab of the relevant sport.
    
-7. Click the <img src="_img/inline/icon-browse.svg" alt="Browse" class="inline"> or the 
-   <img src="_img/inline/icon-replace.svg" alt="Replace File" class="inline">icon (if a file is already attached) 
+7. Click the <img src="_img/inline/icon-browse.png" alt="Browse" class="inline"> or the 
+   <img src="_img/inline/icon-replace.svg" alt="Replace File" class="inline svg-small"> icon (if a file is already attached) 
    in the row of the relevant document, e.g. classification sheet, medical form, protest sheet.
 
 8. Select the document from your local hard drive or network and click **Open**. If successful, the file has 
@@ -166,13 +166,13 @@ files is separated into several containers. These containers, like the classific
 can be changed by the IPC.
 
 In the section about the additional fields, there are two sets of file categories. The first one,
-called *Classification Files (basic)*, allow the flexible up- (<img src="_img/inline/icon-replace.svg" alt="Replace File" class="inline">) 
-and download (<img src="_img/inline/icon-download-document.svg" alt="Download Document" class="inline">) 
+called *Classification Files (basic)*, allow the flexible up- (<img src="_img/inline/icon-replace.svg" alt="Replace File" class="inline svg-small">) 
+and download (<img src="_img/inline/icon-download-document.svg" alt="Download Document" class="inline svg-small">) 
 by any user who is granted to access this section. In Figure 4.5, these are the classification, the protest, 
 and the medical review sheets. The second one is called *Classification Files (sensitive)* and is 
 indicated in the classification file section with an asterisk (*). Users with the basic rights to 
 upload files can perform the browse and upload function but are not able to read the file thereafter 
-(<img src="_img/inline/icon-confidential-file.svg" alt="Confidential File" class="inline">). 
+(<img src="_img/inline/icon-confidential-file.svg" alt="Confidential File" class="inline svg-small">). 
 For access to files uploaded to these sensitive categories, the user must fulfil several conditions 
 that are described further down.
 
@@ -184,7 +184,7 @@ time and only by a controlled group of persons.
 
 These files should be uploaded to a file category that is defined as *sensitive*. Sensitive
 categories are marked with an asterisk (*) in the documentation section. Basic users can
-upload but not download (<img src="_img/inline/icon-confidential-file.svg" alt="Confidential File" class="inline">) 
+upload but not download (<img src="_img/inline/icon-confidential-file.svg" alt="Confidential File" class="inline svg-small">) 
 a file associated with such a category.
 
 Classifiers require reading the file for the upcoming classification panel. To grant one or more

@@ -31,23 +31,21 @@ supplied text, rather than exact matches.
 
 The footer consists of several icons for handling the data or scroll through the full set of data.
 
-| **Icon**                                                                       | **Description**                                                                                                                     |
-| :----------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="_img/inline/icon-delete.svg" alt="Delete" class="inline">            | Deletes the selected row(s). On attempt to delete data which is related to other information or entities, an error message appears. |
-| <img src="_img/inline/icon-reload.svg" alt="Reload" class="inline" >           | Reloads the grid.                                                                                                                   |
-| <img src="_img/inline/icon-reset.svg" alt="Reset" class="inline">              | Clears the search parameters.                                                                                                       |
-| <img src="_img/inline/icon-column.svg" alt="Column" class="inline">            | Manipulate order and number of columns supported by a small interface.<span class="asterisk">*</span>                               |
-| <img src="_img/inline/icon-print.svg" alt="Print" class="inline print">        | Prints all data based on search criteria and column selection and order in one new window.                                          |
-| <img src="_img/inline/icon-export.svg" alt="Export" class="inline">            | Exports all data based on search criteria and column selection and order into an Excel file.                                        |
-| <img src="_img/inline/icon-save.svg" alt="Save" class="inline">                | Save grid settings for later, will be used as default settings until reset or overwritten.                                          |
-| <img src="_img/inline/icon-tools.png" alt="Tools" class="inline icon-set">     | Tools to select matrix pages.                                                                                                       |
-| <img src="_img/inline/icon-first.svg" alt="First" class="inline">              | Go to first page.                                                                                                                   |
-| <img src="_img/inline/icon-previous.svg" alt="Previous" class="inline">        | Go to previous page.                                                                                                                |
-| <img src="_img/inline/icon-next.svg" alt="Next" class="inline">                | Go to next page.                                                                                                                    |
-| <img src="_img/inline/icon-last.svg" alt="Last" class="inline">                | Go to last page.                                                                                                                    |
-| <img src="_img/inline/icon-direct.png" alt="Direct" class="inline icon-set">   | Direct page selection: change page number and press **Enter**.                                                                      |
-| <img src="_img/inline/icon-rows.png" alt="Rows" class="inline icon-set">       | Changes the number of rows per page.                                                                                                |
-| <img src="_img/inline/icon-current.png" alt="Current" class="inline icon-set"> | Shows current position and total data rows based on search criteria.                                                                |
+| **Icon**                                                                                | **Description**                                                                                                                     |
+| :-------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="_img/inline/icon-delete.svg" alt="Delete" class="inline svg-large"> | Deletes the selected row(s). On attempt to delete data which is related to other information or entities, an error message appears. |
+| <img src="_img/inline/icon-reload.svg" alt="Reload" class="inline svg-large">                    | Reloads the grid.                                                                                                                   |
+| <img src="_img/inline/icon-filter-remove.svg" alt="Reset" class="inline svg-large">               | Clears the search parameters.                                                                                                       |
+| <img src="_img/inline/icon-format-columns.svg" alt="Column" class="inline svg-large">             | Manipulate order and number of columns supported by a small interface.<span class="asterisk">*</span>                               |
+| <img src="_img/inline/icon-excel-download.svg" alt="Export" class="inline svg-large">             | Exports all data based on search criteria and column selection and order into an Excel file.                                        |
+| <img src="_img/inline/icon-tools.png" alt="Tools" class="inline icon-set">              | Tools to select matrix pages.                                                                                                       |
+| <img src="_img/inline/icon-first.png" alt="First" class="inline icon-set">              | Go to first page.                                                                                                                   |
+| <img src="_img/inline/icon-previous.png" alt="Previous" class="inline icon-set">        | Go to previous page.                                                                                                                |
+| <img src="_img/inline/icon-next.png" alt="Next" class="inline icon-set">                | Go to next page.                                                                                                                    |
+| <img src="_img/inline/icon-last.png" alt="Last" class="inline icon-set">                | Go to last page.                                                                                                                    |
+| <img src="_img/inline/icon-direct.png" alt="Direct" class="inline icon-set">            | Direct page selection: change page number and press **Enter**.                                                                      |
+| <img src="_img/inline/icon-rows.png" alt="Rows" class="inline icon-set">                | Changes the number of rows per page.                                                                                                |
+| <img src="_img/inline/icon-current.png" alt="Current" class="inline icon-set">          | Shows current position and total data rows based on search criteria.                                                                |
 
 <p class="footnote">
     <small><span class="asterisk">*</span>Hidden columns which do not fit in the default view can be added here if necessary.</small>
@@ -66,16 +64,15 @@ screens do not have a detail page; in that case, clicking selects the row.
 </figure>
 
 Underneath the search results matrix, three buttons duplicate the functionality of icons in the 
-matrix footer, namely the Delete button (same as <img src="_img/inline/icon-delete.svg" alt="Delete" class="inline">), 
-the Grid Export button (same as <img src="_img/inline/icon-export.svg" alt="Export" class="inline">), and 
-the Clear Filter button (same as <img src="_img/inline/icon-clear-filter.svg" alt="Clear Filter" class="inline">).
+matrix footer, namely the Delete button (same as <img src="_img/inline/icon-delete.svg" alt="Delete" class="inline svg-small">), 
+the **Grid Export** button (same as <img src="_img/inline/icon-excel-download.svg" alt="Export" class="inline svg-small">), and 
+the **Clear Filter** button (same as <img src="_img/inline/icon-filter-remove.svg" alt="Clear Filter" class="inline svg-small">).
 
-After opening the detail page, you can go back by clicking **Back to Grid** or the 
-<img src="_img/inline/icon-grid.svg" alt="Grid" class="inline"> icon at the upper right corner of the detail page. 
+After opening the detail page, you can go back by clicking **Back to Grid** at the upper right corner of the detail page. 
 These buttons re-apply the search criteria and opens the previous search results matrix page. Additional buttons 
 on the detail page open a blank form to create a new data set (**Add New X or New**), save, refresh, delete, or 
 clear the loaded detail page. Further buttons designed for a specific detail page are described in the respective 
 sections of this guide.
 
-When moving the cursor over the <img src="_img/inline/icon-modifier-info.svg" alt="Modifier Information" class="inline"> 
+When moving the cursor over the <img src="_img/inline/icon-modifier-info.svg" alt="Modifier Information" class="inline svg-small"> 
 icon, information about who created the data set at which time and who edited the data set the last time. 

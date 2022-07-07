@@ -34,11 +34,10 @@ registration, the first role is registered and automatically activated.
 In addition, the native language is registered. 
 
 After submission of first registration, further roles and languages can be 
-added by clicking the 
-<img src="_img/inline/icon-add.svg" alt="Add Official Role" class="inline"> 
-icon under the corresponding table. Once a role or language is registered, 
-it cannot be edited (except the activity status for roles and the skill 
-level for spoken languages) but deleted (<img src="_img/inline/icon-delete.svg" alt="Delete Role" class="inline">) 
+added by clicking the **+ Add New Role** button under the corresponding table. 
+Once a role or language is registered, it cannot be edited (except the activity 
+status for roles and the skill level for spoken languages) but deleted 
+(<img src="_img/inline/icon-delete.svg" alt="Delete Role" class="inline svg-small">) 
 and newly registered if necessary.
 
 ## Classifier Registration vs Classifier User Account

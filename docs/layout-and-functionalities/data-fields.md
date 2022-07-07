@@ -28,8 +28,8 @@ removed, and non-English letters must be transcribed (e.g. ä -> ae).
 When a date field (e.g., athlete’s date of birth) is selected, a small calendar tool 
 appears to automatically allow the user to select the correct date. Drop down boxes on 
 top opens the respective calendar by month and year. 
-The buttons <img src="_img/inline/date-field-left.png" alt="Left Scroll" class="inline" width="20px" height="20px"> 
-and <img src="_img/inline/date-field-right.png" alt="Right Scroll" class="inline" width="20px" height="20px"> 
+The buttons <img src="_img/inline/date-field-left.svg" alt="Left Scroll" class="inline svg-small"> 
+and <img src="_img/inline/date-field-right.svg" alt="Right Scroll" class="inline svg-small"> 
 scroll through the calendar by month. The selected date will be highlighted. This small window 
 closes automatically when a date is selected, the button **Done** is clicked or another 
 field is selected. In some date fields, minimum and maximum dates are set up. 

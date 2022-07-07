@@ -106,7 +106,7 @@ and for classifiers – but it prevents them from accessing/editing IF admin acc
 
 ## Logout Time and Failed Login Attempts
 
-After the user has logged in, each page has a counter shown at the upper right corner (<img src="_img/inline/icon-login-timer.svg" alt="Login Timer" class="inline">)
+After the user has logged in, each page has a counter shown at the upper right corner (<img src="_img/inline/icon-login-timer.svg" alt="Login Timer" class="inline svg-small">)
 next to the  logout icon that ticks down (shown in minutes). When this counter equals zero, a dialogue informs about 
 the session’s expiration and requests to login again. The maximum value is 3600 s (= 60 minutes) but it is recommended 
 to keep a value of 600 s (= 10 minutes) or lower. Users who do not properly log out might risk unauthorised access in 
@@ -114,7 +114,7 @@ an open network environment.
 
 Each time the user failed to login with the correct username but with the wrong password, the *Failed Login Attempts* 
 counter increases by one. As soon as this counter has a value of five (5) or higher, the user cannot login anymore 
-unless the counter is reset manually clicking the <img src="_img/inline/icon-file-package.svg" alt="File Package" class="inline">
+unless the counter is reset manually clicking the <img src="_img/inline/icon-file-package.svg" alt="File Package" class="inline svg-small">
 icon or the user requests a new password.
 
 ## Account and Password Expiration
@@ -157,13 +157,13 @@ first aid is listed in a small FAQ section underneath. In case, the user needs f
 ### Reset Configuration
 
 In the case that the user lost the token (uninstalled the authenticator application on his mobile phone or similar), the responsible PVSAS security manager 
-can open his account details and click the <img src="_img/inline/icon-authenticator.svg" alt="Authenticator Icon" class="inline"> icon. That removes the token 
+can open his account details and click the <img src="_img/inline/icon-authenticator.svg" alt="Authenticator Icon" class="inline svg-small"> icon. That removes the token 
 registered so that the First-Setup page will show again after next login of the user.
 
 ### User Groups & Permissions
 
 <figure>
-  <img src="_img/figures/7.2-Assignment page of user groups.png" alt="Assignment page of user groups for a user" class="screenshot">
+  <img src="_img/figures/7.2-assignment-page-of-user-groups.png" alt="Assignment page of user groups for a user" class="screenshot">
   <figcaption>Figure 7.2 - Assignment page of user groups for a user</figcaption>
 </figure>
 

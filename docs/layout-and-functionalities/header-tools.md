@@ -6,7 +6,7 @@ The header of PVSAS consists of the followwing two menu bars.
 
 The primary menu (also called the modules menu) allows the access to all various sections of PVSAS the user is granted to 
 and is located below the user information. It can be accessed by moving the cursor to the 
-<img src="_img/inline/icon-primary-menu.svg" alt="Primary Menu Icon" class="inline"> icon in the navigation bar, at the upper left corner.
+<img src="_img/inline/icon-primary-menu.svg" alt="Primary Menu Icon" class="inline svg-small"> icon in the navigation bar, at the upper left corner.
 
 <figure>
 <img src="_img/figures/2.6-primary-menu.png" alt="Primary Menu" class="center" >
@@ -40,7 +40,7 @@ reflects username, last login, and the remaining time before the user session is
 The secondary menu bar is located at the upper right corner.
 
 <figure>
-<img class="screenshot" src="_img/figures/2.8-secondary-menu.png" width=100% height=100% alt="Secondary Menu">
+<img class="center" src="_img/figures/2.8-secondary-menu.png" alt="Secondary Menu">
   <figcaption>Figure 2.8 - Secondary Menu</figcaption>
 </figure>
 
